@@ -255,12 +255,19 @@ section > h2:after {
   -webkit-justify-content: center;
   -ms-flex-pack: center;
   justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
   list-style: none;
   margin: 5rem 0;
   padding: 0;
 }
 
 #portfolio ul.filters li {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   margin-right: 5rem;
   font-size: 1.4rem;
   font-weight: 400;
@@ -269,7 +276,7 @@ section > h2:after {
 }
 
 #portfolio ul.filters li:last-child {
-  margin: 0;
+  margin-right: 0;
 }
 
 #portfolio ul.filters li.active {
@@ -298,7 +305,7 @@ section > h2:after {
 }
 
 #portfolio .grid .item img {
-  max-width: 100%;
+  width: 100%;
 }
 
 #portfolio .grid .item .overlay {
@@ -352,6 +359,7 @@ section > h2:after {
   display: -ms-flexbox;
   display: flex;
   height: 100%;
+  margin-bottom: 3rem;
 }
 
 #sponsors .brands .brand:hover {
@@ -369,7 +377,8 @@ section > h2:after {
 
 #testimonials .preview-slider {
   margin: 5rem auto;
-  width: 50rem;
+  max-width: 50rem;
+  overflow: hidden;
 }
 
 #testimonials .preview-slider .slide {
@@ -405,6 +414,7 @@ section > h2:after {
 }
 
 #testimonials .slider-wrapper .slider .slide {
+  margin: 0 1rem;
   text-align: center;
 }
 
