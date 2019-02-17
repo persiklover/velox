@@ -1,8 +1,4 @@
 @media (max-width: 992px) {
-  .main-text__title {
-    background: #ffc0cb;
-  }
-
   .nav__link {
     margin-right: 3rem;
   }
@@ -108,5 +104,19 @@
 
   .socials__link {
     margin: 0.5rem 0;
+  }
+}
+
+@media (max-width: 490px) {
+  .preview-slider .slide {
+    margin: 0 1rem;
+  }
+
+  .slider .slide {
+    margin: 0;
+  }
+
+  .slider .slick-arrow {
+    top: 15rem;
   }
 }
