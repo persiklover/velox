@@ -1,110 +1,120 @@
 <!doctype html>
 <html lang="ru">
 <head>
+  <!-- Basics -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <meta name="description" content="">
-  <meta name="author" content="">
-  <link rel="icon" href="/favicon.ico">
+  <!-- Mobile viewport -->
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- Meta Tags -->
   <meta name="theme-color" content="#ff9d00">
-
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
-
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+  <meta name="author" content="">
+  <!-- Website Title -->
+  <title>Velox One Page Template</title>
+  <link rel="icon" href="/favicon.ico">
+  <!-- Include CSS -->
+  <link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css">
   <link rel="stylesheet" href="lib/slick/slick-theme.css">
   <link rel="stylesheet" href="lib/slick/slick.css">
-
-  <link rel="stylesheet" href="css/style.css">
-  <link rel="stylesheet" href="css/media.css">
-
-  <title></title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/_media.css">
 </head>
 <body>
-  <div id="main">
-    <div class="header">
+  <div class="main" id="main">
+
+    <!-- Header -->
+    <header class="header">
       <div class="container">
         <div class="row align-items-center">
-          <div class="col-3">
-            <div class="logo">
-              <a href="#">
-                <img src="img/logo.png" alt="">
-              </a>
-            </div>
-            <!-- /.logo -->
+          <div class="col-xs-6 col-md-3">
+            <!-- Logo -->
+            <a class="logo" href="#">
+              <img src="img/logo.png" alt="">
+            </a>
           </div>
-          <!-- /.col-3 -->
-          <div class="col-9">
-            <ul class="nav">
-              <li><a href="#our-services">Services</a></li>
-              <li><a href="#portfolio">Portofolio</a></li>
-              <li><a href="#sponsors">Sponsors</a></li>
-              <li><a href="#testimonials">Testimonials</a></li>
-              <li><a href="#contact-us">Contacts</a></li>
-            </ul>
+          <!-- /.col-xs-6 col-md-3 -->
+          <div class="col-md-9">
+            <!-- Navigation -->
+            <nav class="nav">
+              <a class="nav__link" href="#services">Services</a>
+              <a class="nav__link" href="#portfolio">Portofolio</a>
+              <a class="nav__link" href="#sponsors">Sponsors</a>
+              <a class="nav__link" href="#testimonials">Testimonials</a>
+              <a class="nav__link" href="#contacts">Contacts</a>
+            </nav>
             <!-- /.nav -->
           </div>
-          <!-- /.col-9 -->
+          <!-- /.col-md-9 -->
         </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->
-    </div>
-    <!-- /.header -->
+    </header>
+
     <div class="main-text">
-      <h1>Velox One Page Template</h1>
-      <span>Clean, Responsive, customizable one page template </span>
+      <h1 class="main-text__title">Velox One Page Template</h1>
+      <p class="main-text__subtitle">Clean, Responsive, customizable one page template </p>
     </div>
-    <!-- /.main-text -->
+
     <button class="btn get-started">Get Started Now</button>
+
   </div>
   <!-- /.main -->
   
-  <section id="our-services">
+  <section id="services">
     <h2>Our Services</h2>
+
     <div class="features">
       <div class="container">
         <div class="row">
-          <div class="cold-xs-12 col-md-6 col-lg-3">
-            <div class="item">
-              <div class="img-wrapper"><img src="img/features/1.png" alt=""></div>
-              <!-- /.img-wrapper -->
-              <h3>Logo Design</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          <div class="col-xs-12 col-md-6 col-lg-3">
+
+            <div class="feature">
+              <div class="feature__img">
+                <img src="img/features/1.png" alt="">
+              </div>
+              <h3 class="feature__title">Logo Design</h3>
+              <p class="feature__description">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
             </div>
-            <!-- /.item -->
+            <!-- /.feature -->
+
           </div>
-          <!-- /.cold-xs-12 col-md-6 col-lg-3 -->
-          <div class="cold-xs-12 col-md-6 col-lg-3">
-            <div class="item">
-              <div class="img-wrapper"><img src="img/features/2.png" alt=""></div>
-              <!-- /.img-wrapper -->
-              <h3>Logo Design</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          <!-- /.col-xs-12 col-md-6 col-lg-3 -->
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="feature">
+              <div class="feature__img">
+                <img src="img/features/2.png" alt="">
+              </div>
+              <h3 class="feature__title">Logo Design</h3>
+              <p class="feature__description">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
             </div>
-            <!-- /.item -->
+            <!-- /.feature -->
           </div>
-          <!-- /.cold-xs-12 col-md-6 col-lg-3 -->
-          <div class="cold-xs-12 col-md-6 col-lg-3">
-            <div class="item">
-              <div class="img-wrapper"><img src="img/features/3.png" alt=""></div>
-              <!-- /.img-wrapper -->
-              <h3>Logo Design</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          <!-- /.col-xs-12 col-md-6 col-lg-3 -->
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="feature">
+              <div class="feature__img">
+                <img src="img/features/3.png" alt="">
+              </div>
+              <h3 class="feature__title">Logo Design</h3>
+              <p class="feature__description">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
             </div>
-            <!-- /.item -->
+            <!-- /.feature -->
           </div>
-          <!-- /.cold-xs-12 col-md-6 col-lg-3 -->
-          <div class="cold-xs-12 col-md-6 col-lg-3">
-            <div class="item">
-              <div class="img-wrapper"><img src="img/features/4.png" alt=""></div>
-              <!-- /.img-wrapper -->
-              <h3>Logo Design</h3>
-              <p>Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
+          <!-- /.col-xs-12 col-md-6 col-lg-3 -->
+          <div class="col-xs-12 col-md-6 col-lg-3">
+            <div class="feature">
+              <div class="feature__img">
+                <img src="img/features/4.png" alt="">
+              </div>
+              <h3 class="feature__title">Logo Design</h3>
+              <p class="feature__description">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
             </div>
-            <!-- /.item -->
+            <!-- /.feature -->
           </div>
-          <!-- /.cold-xs-12 col-md-6 col-lg-3 -->
+          <!-- /.col-xs-12 col-md-6 col-lg-3 -->
         </div>
         <!-- /.row -->
       </div>
@@ -112,124 +122,111 @@
     </div>
     <!-- /.features -->
   </section>
-  <!-- /#our-services -->
+  <!-- /#services -->
 
   <section id="portfolio">
     <h2>Portfolio</h2>
+
     <div class="projects">
-      <ul class="filters">
-        <li class="active"><a href="#">All</a></li>
-        <li><a href="#">Illustrations</a></li>
-        <li><a href="#">Logo</a></li>
-        <li><a href="#">Branding</a></li>
-        <li><a href="#">Design</a></li>
-      </ul>
+      
+      <nav class="filters">
+        <a class="filters__link active" href="#">All</a>
+        <a class="filters__link" href="#">Illustrations</a>
+        <a class="filters__link" href="#">Logo</a>
+        <a class="filters__link" href="#">Branding</a>
+        <a class="filters__link" href="#">Design</a>
+      </nav>
       <!-- /.filters -->
+
       <div class="grid">
         <div class="container">
           <div class="row">
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/1.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>Agency - PSD Template</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/1.png" alt="">
+                <h3 class="item__title">Agency - PSD Template</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/2.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>Pure Vodka Branding</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/2.png" alt="">
+                <h3 class="item__title">Pure Vodka Branding</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+            
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/3.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>Web Design</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/3.png" alt="">
+                <h3 class="item__title">Web Design</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/4.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>Everest Logo</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/4.png" alt="">
+                <h3 class="item__title">Everest Logo</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/5.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>Poster Design</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/5.png" alt="">
+                <h3 class="item__title">Poster Design</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+
             <div class="col-12 col-md-6 col-lg-4">
               <div class="item">
-                <img src="img/portfolio/6.png" alt="">
-                <div class="overlay">
+                <div class="item__overlay">
                   <div class="btn">More</div>
-                  <!-- /.btn -->
                 </div>
-                <!-- /.overlay -->
-                <div class="info">
-                  <h3>illustration</h3>
-                </div>
-                <!-- /.info -->
+
+                <img class="item__img" src="img/portfolio/6.png" alt="">
+                <h3 class="item__title">Illustration</h3>
               </div>
               <!-- /.item -->
             </div>
             <!-- /.col-12 col-md-6 col-lg-4 -->
+
           </div>
           <!-- /.row -->
         </div>
         <!-- /.container -->
       </div>
       <!-- /.grid -->
+
     </div>
     <!-- /.projects -->
   </section>
@@ -237,39 +234,59 @@
 
   <section id="sponsors">
     <h2>Recent Brands we’ve worked with</h2>
+
     <div class="brands">
       <div class="container">
         <div class="row">
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/1.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/1.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/2.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/2.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/3.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/3.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/4.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/4.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/5.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/5.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
           <div class="col-12 col-md-6 col-lg-2">
-            <div class="brand"><img src="img/brands/6.png" alt=""></div>
-            <!-- /.brand -->
+            <div class="brands__item">
+              <img src="img/brands/6.png" alt="">
+            </div>
+            <!-- /.brands__item -->
           </div>
           <!-- /.col-12 col-md-6 col-lg-2 -->
+
         </div>
         <!-- /.row -->
       </div>
@@ -281,216 +298,174 @@
 
   <section id="testimonials">
     <h2>See what others are saying about us</h2>
+
     <div class="container">
+
       <div class="preview-slider">
         <div class="slide"><img src="img/slider/1.png" alt=""></div>
-        <!-- /.slide -->
         <div class="slide"><img src="img/slider/2.png" alt=""></div>
-        <!-- /.slide -->
         <div class="slide"><img src="img/slider/3.png" alt=""></div>
-        <!-- /.slide -->
       </div>
-      <!-- /.preview-slider -->
+
       <div class="slider-wrapper">
         <div class="slider">
           <div class="slide">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-            <span>Linda from <a href="#">jobhunter.com</a></span>
+            <p class="slide__text">“Subscribe to PewDiePie”</p>
+            <span class="slide__footer">Linda from <a href="#">jobhunter.com</a></span>
           </div>
-          <!-- /.slide -->
           <div class="slide">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-            <span>Brad from <a href="#">work-zilla.com</a></span>
+            <p class="slide__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            <span class="slide__footer">Brad from <a href="#">work-zilla.com</a></span>
           </div>
-          <!-- /.slide -->
           <div class="slide">
-            <p>“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
-            <span>Connor sent by <a href="#">cyberlife.com</a></span>
+            <p class="slide__text">“Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.”</p>
+            <span class="slide__footer">Connor sent by <a href="#">cyberlife.com</a></span>
           </div>
-          <!-- /.slide -->
         </div>
-        <!-- /.slider -->
       </div>
-      <!-- /.slider-wrapper -->
+
     </div>
     <!-- /.container -->
   </section>
   <!-- /#testimonials -->
 
-  <section id="contact-us">
-    <div class="header">
+  <section class="contacts" id="contacts">
+
+    <div class="contacts__header">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-3">
+
+          <div class="col-xs-3 col-md-3">
             <h2>Contact Us</h2>
           </div>
-          <!-- /.col-12 col-lg-3 -->
-          <div class="col-12 col-lg-9">
-            <ul class="nav">
-              <li><a href="#main">Home</a></li>
-              <li><a href="#">About</a></li>
-              <li><a href="#our-services">Services</a></li>
-              <li><a href="#">Blog</a></li>
-              <li><a href="#contact-us">Contact Us</a></li>
-            </ul>
-            <!-- /.nav -->
+          <!-- /.col-xs-3 col-md-3 -->
+
+          <div class="col-xs-12 col-md-9">
+            <nav class="nav nav--footer">
+              <a class="nav__link" href="#main">Home</a>
+              <a class="nav__link" href="#">About</a>
+              <a class="nav__link" href="#services">Services</a>
+              <a class="nav__link" href="#">Blog</a>
+              <a class="nav__link" href="#">Contact Us</a>
+            </nav>
           </div>
-          <!-- /.col-12 col-lg-9 -->
+          <!-- /.col-xs-12 col-md-9 -->
+
         </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->
     </div>
-    <!-- /.header -->
-    <div class="content">
+    <!-- /.contacts-header -->
+
+    <div class="contacts__main">
       <div class="container">
         <div class="row">
-          <div class="col-12 col-lg-4">
-            <div class="contacts">
+
+          <div class="col-md-12 col-xl-4">
+            <aside class="info">
+
               <div class="contact-block">
-                <h3>Our address</h3>
-                <p>House No,11132, Sector 31, Gurgaon 122001 India</p>
-              </div>
-              <!-- /.contact-block -->
-              <div class="contact-block">
-                <h3>Call us</h3>
-                <p><a href="tel:+919876543210">+91-9876543210</a></p>
-                <p><a href="tel:+01262219018">+01262219018</a></p>
-              </div>
-              <!-- /.contact-block -->
-              <div class="contact-block">
-                <h3>Email us</h3>
-                <p><a href="mailto: contactus@email.com">contactus@email.com</a></p>
-              </div>
-              <!-- /.contact-block -->
-            </div>
-            <!-- /.contacts -->
-          </div>
-          <!-- /.col-12 col-lg-4 -->
-          <div class="col-12 col-lg-8">
-            <div class="form">
-              <form action="get">
-                <div class="top-group">
-                  <div class="input-wrapper">
-                    <p>Name :</p>
-                    <input type="text" required>
-                  </div>
-                  <div class="input-wrapper">
-                    <p>Name :</p>
-                    <input type="text" required>
-                  </div>
+                <h3 class="contact-block__title">Our address</h3>
+                <div class="contact-block__content">
+                  <address>House No,11132, Sector 31, Gurgaon 122001 India</address>
                 </div>
-                <textarea name="" id="" cols="30" rows="8"></textarea>
-                <button type="submit" class="btn">Send message</button>
-              </form>
-            </div>
+              </div>
+              <!-- /.contact-block -->
+
+              <div class="contact-block">
+                <h3 class="contact-block__title">Call us</h3>
+                <div class="contact-block__content">
+                  <a href="tel:+919876543210">+91-9876543210</a>
+                  <a href="tel:+01262219018">+01262219018</a>
+                </div>
+              </div>
+              <!-- /.contact-block -->
+
+              <div class="contact-block">
+                <h3 class="contact-block__title">Email us</h3>
+                <div class="contact-block__content">
+                  <a href="mailto: contactus@email.com">contactus@email.com</a>
+                </div>
+              </div>
+              <!-- /.contact-block -->
+
+            </aside>
+            <!-- /.info -->
           </div>
-          <!-- /.col-12 col-lg-8 -->
+          <!-- /.col-md-12 col-xl-4 -->
+
+          <div class="col-md-12 col-xl-8">
+
+            <form class="form" action="get">
+              <div class="top-group">
+                <div class="input-wrapper">
+                  <span>Name :</span>
+                  <input type="text" required>
+                </div>
+                <div class="input-wrapper">
+                  <span>Email :</span>
+                  <input type="email" required>
+                </div>
+              </div>
+
+              <textarea name="" id="" cols="30" rows="8"></textarea>
+              <button type="submit" class="btn">Send message</button>
+            </form>
+
+          </div>
+          <!-- /.col-md-12 col-xl-8 -->
         </div>
         <!-- /.row -->
       </div>
       <!-- /.container -->
     </div>
     <!-- /.content -->
+
     <button class="btn btn-up">
       <span></span>
     </button>
+
   </section>
   <!-- /#contact-us -->
 
-  <div id="footer">
+  <footer class="footer" id="footer">
     <div class="container">
       <div class="row align-items-center">
-        <div class="col-12 col-lg-3">
-          <span class="copyright">© 2016 Nishant Bazzad</span>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+          <span class="footer__copyright">© 2016 Nishant Bazzad</span>
         </div>
-        <!-- /.col-12 col-lg-3 -->
-        <div class="col-12 col-lg-9">
+        <!-- /.col-xs-12 col-sm-6 col-md-3 -->
+
+        <div class="col-xs-12 col-sm-6 col-md-9">
           <ul class="socials">
-            <li><a href="#"><img src="img/social/fb.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/twitter.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/composite-path.svg" alt=""></a></li>
-            <li><a href="#"><img src="img/social/linkedin.svg" alt=""></a></li>
+            <li class="socials__link">
+              <a href="#"><img src="img/social/fb.svg" alt=""></a>
+            </li>
+            <li class="socials__link">
+              <a href="#"><img src="img/social/twitter.svg" alt=""></a>
+            </li>
+            <li class="socials__link">
+              <a href="#"><img src="img/social/composite-path.svg" alt=""></a>
+            </li>
+            <li class="socials__link">
+              <a href="#"><img src="img/social/linkedin.svg" alt=""></a>
+            </li>
           </ul>
         </div>
-        <!-- /.col-12 col-lg-9 -->
+        <!-- /.col-xs-12 col-sm-6 col-md-9 -->
+
       </div>
       <!-- /.row -->
     </div>
     <!-- /.container -->
-  </div>
+  </footer>
   <!-- /.footer -->
 
   <!-- Scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
-  <!-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script> -->
-  <!-- slick.js -->
   <script src="lib/slick/slick.min.js"></script>
-  <script>
-    function scrollTo(selector) {
-      $('html, body').animate({
-        scrollTop: $(selector).offset().top
-      }, 1000);
-    }
-    // Navs
-    $('.header .nav a').click(function(e) {
-      e.preventDefault();
-      scrollTo($(this).attr('href'));
-    });
-
-    // Portfolio
-    $('.filters a').click(function(event) {
-      event.preventDefault();
-
-      $(this).parent('li')
-        .addClass('active')
-        .siblings('li').removeClass('active');
-
-      // Some action here...
-    });
-
-    $('.grid .item').hover(function() {
-      $(this).addClass('active');
-    }, function() {
-      $(this).removeClass('active');
-    });
-
-    // Sliders
-    $('.preview-slider').slick({
-      draggable: false,
-      initialSlide: 1,
-      centerMode: true,
-      variableWidth: true,
-      arrows: false,
-      asNavFor: '.slider',
-      responsive: [
-        {
-          breakpoint: 768,
-          settings: {
-            // draggable: true,
-            // fade: false,
-            slidesToShow: 1,
-            slidesToScroll: 1,
-          }
-        }
-      ]
-    });
-
-    $('.slider').slick({
-      dots: true,
-      initialSlide: 1,
-      centerMode: true,
-      focusOnSelect: true,
-      asNavFor: '.preview-slider',
-    });
-
-    // Buttons
-    $('.btn-up').click(function() {
-      scrollTo('#main');
-    });
-    $('.get-started').click(function() {
-      scrollTo('#our-services');
-    });
-  </script>
+  <script src="js/main.js"></script>
 </body>
 </html>
