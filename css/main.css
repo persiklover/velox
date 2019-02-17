@@ -85,7 +85,9 @@ section > h2:after {
   position: relative;
   z-index: 1;
   min-height: 100vh;
-  background: url("../img/main-bg.png") no-repeat center bottom;
+  background: url("../img/main-bg.png") center bottom;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-color: #8e959e;
   display: -webkit-box;
   display: -webkit-flex;
@@ -155,6 +157,7 @@ section > h2:after {
 }
 
 .main-text {
+  margin-top: 9rem;
   text-align: center;
 }
 
@@ -175,6 +178,7 @@ section > h2:after {
   margin: 0 auto;
   position: relative;
   top: -9rem;
+  margin-top: 13rem;
 }
 
 .features {
