@@ -8,7 +8,16 @@ $(function() {
   // Navs
   $('.nav a').click(function(e) {
     e.preventDefault();
+    $('.header .nav').removeClass('popup');
+    $('body').removeClass('popup');
+    $('.js-menu-btn').removeClass('active');
     scrollTo($(this).attr('href'));
+  });
+
+  $('.js-menu-btn').click(function() {
+    $(this).toggleClass('active');
+    $('.header .nav').toggleClass('popup');
+    $('body').toggleClass('popup');
   });
 
   // Portfolio
@@ -48,10 +57,10 @@ $(function() {
   });
 
   // Buttons
-  $('.btn-up').click(function() {
-    scrollTo('#main');
+  $('.js-btn-up').click(function() {
+    scrollTo('#home');
   });
-  $('.get-started').click(function() {
+  $('.js-get-started').click(function() {
     scrollTo('#services');
   });
 

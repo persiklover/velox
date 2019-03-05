@@ -1,13 +1,13 @@
 <!doctype html>
-<html lang="ru">
+<html lang="en">
 <head>
   <!-- Basics -->
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <!-- Mobile viewport -->
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Meta Tags -->
-  <!-- <meta name="theme-color" content="#ff9d00"> -->
+  <meta name="theme-color" content="#00a5ff">
   <meta name="description" content="">
   <meta name="keywords" content="">
   <meta name="author" content="">
@@ -19,34 +19,43 @@
   <link rel="stylesheet" href="lib/slick/slick-theme.css">
   <link rel="stylesheet" href="lib/slick/slick.css">
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-  <div class="main" id="main">
+  <div class="home" id="home">
 
     <!-- Header -->
     <header class="header">
       <div class="container">
-        <div class="row align-items-center">
-          <div class="col-xs-6 col-md-3">
+        <div class="row justify-content-between align-items-center">
+
+          <div class="col-6 col-md-3">
             <!-- Logo -->
             <a class="logo" href="#">
-              <img src="img/logo.png" alt="">
+              <img src="img/logo.png" alt="Logo">
             </a>
           </div>
           <!-- /.col-xs-6 col-md-3 -->
-          <div class="col-md-9">
+
+          <div class="col-2 col-md-9">
             <!-- Navigation -->
-            <nav class="nav">
-              <a class="nav__link" href="#services">Services</a>
-              <a class="nav__link" href="#portfolio">Portofolio</a>
-              <a class="nav__link" href="#sponsors">Sponsors</a>
-              <a class="nav__link" href="#testimonials">Testimonials</a>
-              <a class="nav__link" href="#contacts">Contacts</a>
+            <nav>
+              <ul class="nav">
+                <li class="nav__item"><a href="#services">Services</a></li>
+                <li class="nav__item"><a href="#portfolio">Portofolio</a></li>
+                <li class="nav__item"><a href="#sponsors">Sponsors</a></li>
+                <li class="nav__item"><a href="#testimonials">Testimonials</a></li>
+                <li class="nav__item"><a href="#contacts">Contacts</a></li>
+              </ul>
             </nav>
             <!-- /.nav -->
+
+            <!-- Menu btn -->
+            <button class="js-menu-btn">
+              <span></span>
+            </button>
           </div>
           <!-- /.col-md-9 -->
+
         </div>
         <!-- /.row -->
       </div>
@@ -54,11 +63,12 @@
     </header>
 
     <div class="main-text">
-      <h1 class="main-text__title">Velox One Page Template</h1>
-      <p class="main-text__subtitle">Clean, Responsive, customizable one page template </p>
+      <div class="container">
+        <h1 class="main-text__title">Velox One Page Template</h1>
+        <p class="main-text__subtitle">Clean, Responsive, customizable one page template </p>
+        <button class="btn js-get-started">Get Started Now</button>
+      </div>
     </div>
-
-    <button class="btn get-started">Get Started Now</button>
 
   </div>
   <!-- /.main -->
@@ -148,7 +158,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/1.png" alt="">
+                <img class="item__img" src="img/portfolio/1.jpg" alt="">
                 <h3 class="item__title">Agency - PSD Template</h3>
               </div>
               <!-- /.item -->
@@ -161,7 +171,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/2.png" alt="">
+                <img class="item__img" src="img/portfolio/2.jpg" alt="">
                 <h3 class="item__title">Pure Vodka Branding</h3>
               </div>
               <!-- /.item -->
@@ -174,7 +184,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/3.png" alt="">
+                <img class="item__img" src="img/portfolio/3.jpg" alt="">
                 <h3 class="item__title">Web Design</h3>
               </div>
               <!-- /.item -->
@@ -187,7 +197,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/4.png" alt="">
+                <img class="item__img" src="img/portfolio/4.jpg" alt="">
                 <h3 class="item__title">Everest Logo</h3>
               </div>
               <!-- /.item -->
@@ -200,7 +210,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/5.png" alt="">
+                <img class="item__img" src="img/portfolio/5.jpg" alt="">
                 <h3 class="item__title">Poster Design</h3>
               </div>
               <!-- /.item -->
@@ -213,7 +223,7 @@
                   <div class="btn">More</div>
                 </div>
 
-                <img class="item__img" src="img/portfolio/6.png" alt="">
+                <img class="item__img" src="img/portfolio/6.jpg" alt="">
                 <h3 class="item__title">Illustration</h3>
               </div>
               <!-- /.item -->
@@ -232,16 +242,16 @@
   </section>
   <!-- /#portfolio -->
 
-  <section id="sponsors">
+  <section class="container" id="sponsors">
     <h2>Recent Brands we’ve worked with</h2>
 
     <div class="brands">
-      <div class="container">
-        <div class="row">
+
+        <div class="row justify-content-between">
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/1.png" alt="">
+              <img src="img/brands/1.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -249,7 +259,7 @@
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/2.png" alt="">
+              <img src="img/brands/2.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -257,7 +267,7 @@
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/3.png" alt="">
+              <img src="img/brands/3.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -265,7 +275,7 @@
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/4.png" alt="">
+              <img src="img/brands/4.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -273,7 +283,7 @@
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/5.png" alt="">
+              <img src="img/brands/5.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -281,7 +291,7 @@
 
           <div class="col-12 col-md-6 col-lg-2">
             <div class="brands__item">
-              <img src="img/brands/6.png" alt="">
+              <img src="img/brands/6.jpg" alt="">
             </div>
             <!-- /.brands__item -->
           </div>
@@ -289,8 +299,7 @@
 
         </div>
         <!-- /.row -->
-      </div>
-      <!-- /.container -->
+
     </div>
     <!-- /.brands -->
   </section>
@@ -300,7 +309,6 @@
     <h2>See what others are saying about us</h2>
 
     <div class="container">
-
       <div class="preview-slider">
         <div class="slide"><img src="img/slider/1.png" alt=""></div>
         <div class="slide"><img src="img/slider/2.png" alt=""></div>
@@ -323,9 +331,7 @@
           </div>
         </div>
       </div>
-
     </div>
-    <!-- /.container -->
   </section>
   <!-- /#testimonials -->
 
@@ -342,11 +348,11 @@
 
           <div class="col-xs-12 col-md-9">
             <nav class="nav nav--footer">
-              <a class="nav__link" href="#main">Home</a>
-              <a class="nav__link" href="#">About</a>
-              <a class="nav__link" href="#services">Services</a>
-              <a class="nav__link" href="#">Blog</a>
-              <a class="nav__link" href="#">Contact Us</a>
+              <a class="nav__item" href="#main">Home</a>
+              <a class="nav__item" href="#">About</a>
+              <a class="nav__item" href="#services">Services</a>
+              <a class="nav__item" href="#">Blog</a>
+              <a class="nav__item" href="#">Contact Us</a>
             </nav>
           </div>
           <!-- /.col-xs-12 col-md-9 -->
@@ -365,29 +371,29 @@
           <div class="col-md-12 col-xl-4">
             <aside class="info">
 
-              <div class="contact-block">
+              <section class="contact-block">
                 <h3 class="contact-block__title">Our address</h3>
                 <div class="contact-block__content">
                   <address>House No,11132, Sector 31, Gurgaon 122001 India</address>
                 </div>
-              </div>
+              </section>
               <!-- /.contact-block -->
 
-              <div class="contact-block">
+              <section class="contact-block">
                 <h3 class="contact-block__title">Call us</h3>
                 <div class="contact-block__content">
                   <a href="tel:+919876543210">+91-9876543210</a>
                   <a href="tel:+01262219018">+01262219018</a>
                 </div>
-              </div>
+              </section>
               <!-- /.contact-block -->
 
-              <div class="contact-block">
+              <section class="contact-block">
                 <h3 class="contact-block__title">Email us</h3>
                 <div class="contact-block__content">
-                  <a href="mailto: contactus@email.com">contactus@email.com</a>
+                  <a href="mailto:contactus@email.com">contactus@email.com</a>
                 </div>
-              </div>
+              </section>
               <!-- /.contact-block -->
 
             </aside>
@@ -409,7 +415,7 @@
                 </div>
               </div>
 
-              <textarea name="" id="" cols="30" rows="8"></textarea>
+              <textarea placeholder="Type your message here" cols="30" rows="8"></textarea>
               <button type="submit" class="btn">Send message</button>
             </form>
 
@@ -422,7 +428,7 @@
     </div>
     <!-- /.content -->
 
-    <button class="btn btn-up">
+    <button class="btn js-btn-up">
       <span></span>
     </button>
 
